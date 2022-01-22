@@ -1,0 +1,103 @@
+body {
+    margin:0;
+    padding-top: 88px;
+    text-align: center;
+    background-image: url("https://previews.123rf.com/images/tomo00/tomo001712/tomo00171200311/92293005-hintergrundmaterial-unsch%C3%A4rfe-weichzeichnung-schneekristalle-raureif-winterlandschaft-pastellfarben-.jpg")
+	/* background-repeat: no-repeat; */ 
+    
+}
+.profile{
+    width: 17px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+} 
+#welcome {
+    position: absolute;
+    
+   
+   
+   display: table;
+   width: 100%;
+   height:100%;
+   z-index: 9;
+       
+   
+}
+
+
+    
+h1{
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight:300;
+color: blueviolet;
+    text-align: center;
+
+}
+h2{
+    font-size:30px;
+    font-weight:300;
+    line-height:1.2;
+    font-family:monospace
+        
+}
+#read{
+    padding: 50px;
+    text-align:center;
+    width: 100%;
+    height:100%;
+    z-index: 9;
+}
+
+.line{
+    height:10px;
+    background-color:burlywood;
+    width:70px;
+    margin:8px auto;
+}
+p {
+    max-width:450px;
+    margin:25px auto;
+    font-size:17px;
+    line-height: 1.3;
+    
+    
+}
+
+ 
+.menu{
+ 
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    
+}
+.links{
+    float:left;
+    
+    color:deepskyblue;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+.links:hover {
+    background-color: darkcyan;
+    
+}
+a {
+    text-decoration: none
+}
+
+img
+{
+    height: 100%;
+  border-radius:50%;
+    width:30%;
+}
